@@ -1,20 +1,25 @@
 package com.icecreamparlor;
 
-//IceCream.java
+// IceCream.java
+// The IceCream class represents an ice cream with a specific flavor and price
 public class IceCream {
- private String flavor;
- private double price;
+    // Private fields for the flavor and price of the ice cream
+    private String flavor;
+    private double price;
 
- public IceCream(String flavor, double price) {
-     this.flavor = flavor;
-     this.price = price;
- }
+    // Constructor that initializes the ice cream with a given flavor and price
+    public IceCream(String flavor, double price) {
+        this.flavor = flavor;
+        this.price = price;
+    }
 
- public String getFlavor() {
-     return flavor;
- }
+    // Method to get the flavor of the ice cream
+    public String getFlavor() {
+        return flavor;
+    }
 
- public double getPrice() {
-     return price;
- }
+    // Method to get the price of the ice cream
+    public double getPrice() {
+        return price;
+    }
 }
